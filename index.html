@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energias Renováveis</title>
+    <!-- Chamando o CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Chamando o JavaScript-->
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <!-- Tela 1: Introdução -->
+    <div id="tela1" class="tela">
+        <h1>Bem-vindo ao Prêmio Talentinho Front-end!</h1>
+        <h2> Equipe:Cai Cai</h2>
+        <h3>Membros:Vitor Vinícius, Isadora, laura, Rafaella O., Manuely, Luiz Vinícius C. Muniz</h3>
+        <h4>Tema da Aplicação: </h4>
+        <button id="btn-ir-tela2">Ir para a próxima tela</button>
+    </div>
+
+    <!-- Tela 2: Conteúdo Texto -->
+    <div id="tela2" class="tela" style="display: none;">
+        <article>
+        <h2>Energia Renovavel</h2>
+        <div><p><h3>Energia solar:</h3>
+            A energia solar é produzida com uma radiação que o sol solta nos raios solares e manda para a terra, assim batendo numa placa que absorve essa radiação e converte em energia limpa e renovável assim que essa placa absorve essa energia ela manda para os item de casa como maquibna de lavar, lampadas, água quente,tomadas e etc.....
+            mas ela pode produzir energia para a casa toda bem fácil.<br></p></div>
+
+            <div><p><h3> Energia Eólica:</h3>
+            A energia eólica é criada por ondas de ventos que fazem um motor girar e produzir,a energia eólica é muito mais limpa,ela é a mais usada hoje em dia do que a solar e as outras,a nossa energia eólica é formada por cataventos gigantes que ficam em areas aonde a massa de ar é mais alta e constantante ou também a nossa const, ela também não solta poluentes no nosso ar e nem na atmosfera, mas ela tem um problema que é muitas vezes não vem massa de ar assim não gerando energia.<br></p></div>
+
+            <div><p><h3>Hidroelétrica:</h3>
+            A energia hidroelétrica é formada por ondas de água que fazem a nossa energia ser formada e convertida em energia cinética, hidraulica e limpa, mas tem um grande problema que é... a inundação de áreas habitáveis
+            e também tem o problema que é o desviu de rios e nasentes para a ausina hidroelétricas para a geração de energia. Isso também prejudica animais que não tem aonde viver ou beber água.<br></p></div>
+            
+            <div><p><h3>Biomassa:</h3>
+            A energia biomassa é formada por queima de objetos que em tese seriam jogados fora, a energia biomassa é considerada uma energia renovavel que é produzida pela queima de objetos. Ela tem alguns tipo de materiais que são queimados que chegam a ser sólido, liquido e gasoso... como madeira, pedaços de cana usados,carvão vegetal, etanol, biodiesel, bio gás e também o gás metano que obitido em terrenos sanitários.<br></p></div>
+
+
+           <div><p><h3>Energia Geotér
+            mica:</h3>
+           A energia geotérmica é formada por meio do aquecimento do solo que são meio que túneis subterrâneos que colocam tubos com água que é transportada por esses tubos e a água aquecida se tranforma em vapor que é transportado por esses mesmos tubos que a água é levada, mas ela tem um grande problema que é a poluição do solo e que também polui o ar e também que é muito caro pra consertar caso eles estraguem.
+           </p></div></article>
+
+        </p>
+        <button id="btn-ir-tela3">Ir para a tela de feedback</button>
+    </div>
+
+    <!-- Tela 3: Feedback -->
+    <div id="tela3" class="tela" style="display: none;">
+        <h3>Deixe seu Feedback</h3>
+        <button id="btn-curtir">Curtir 👍</button>
+        <p id="contador-curtidas">Curtidas: 0</p>
+        <form id="form-feedback">
+            <label for="nome">Seu nome:</label>
+            <input type="text" id="nome" placeholder="Digite seu nome" required>
+            <label for="mensagem">Sua mensagem:</label>
+            <textarea id="mensagem" rows="4" cols="50" placeholder="Escreva sua mensagem" required></textarea>
+            <button type="submit">Enviar Feedback</button>
+        </form>
+        <div id="feedback-resultado"></div>
+    </div>
+
+
+</body>
+
+</html>
